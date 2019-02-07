@@ -67,6 +67,12 @@
 		/*TABLET*/ 
 
 @media only screen and ( max-width: 769px) {
+	.container .row .col-md-0 {
+			width: 0px;
+			height: 0px;
+			padding: 0;
+	}
+
 		.container .row .col-md-1 {
 		width: 8.3333333%;
 	}
